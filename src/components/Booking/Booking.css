@@ -1,0 +1,33 @@
+.booking-top{
+    position: relative;
+}
+.book-main-section {
+	width: 70%;
+	height: 105%;
+	background-color: white;
+	border-radius: 5px;
+	position: relative;
+	left: 132px;
+	top: -16px;
+}
+
+.from-calender{
+    width: 45%;
+    position: relative;
+}
+.from-calender > img {
+	position: absolute;
+	height: 20px;
+	right: 10px;
+	bottom: 10px;
+}
+.to-calender{
+    width: 48%;
+    position: relative;
+}
+.to-calender > img {
+    position: absolute;
+	height: 20px;
+	right: 10px;
+	bottom: 10px;
+}

@@ -1,0 +1,142 @@
+.background-style{    
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ), url('../Images/Rectangle1.png');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.top-container{
+    margin-top: 100px;
+}
+.description-side{
+    color: #fff;    
+}
+
+.all-images-alignment {
+	position: relative;
+	left: 42px;
+}
+.image-style{
+    position: relative;
+    text-align: center;
+}
+.image-style10 img{    
+    height: 300px;
+    width: 32%;
+    border-radius: 15px;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.image-style110 img{    
+    height: 300px;
+    width: 32%;
+    border-radius: 15px;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.image-style2{
+    position: relative;
+    text-align: center;
+}
+.image-style20 img{    
+    height: 300px;
+    width: 32%;
+    border-radius: 15px;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 30px;
+    border: 3px solid yellow;   
+}
+.image-style220 img{    
+    height: 300px;
+    width: 32%;
+    border-radius: 15px;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+    left: 30px;
+}
+.image-style3{
+    position: relative;
+    text-align: center;
+}
+.image-style30 img{    
+    height: 300px;
+    width: 32%;
+    border-radius: 15px;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   left: 60px;
+}
+.image-style330 img{    
+    height: 300px;
+    width: 32%;
+    border-radius: 15px;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   left: 60px;
+   border: 3px solid yellow;   
+}
+
+.left-circle{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    left: 15px;
+}
+.right-circle{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: white;
+    position: relative; 
+}
+.fav-left-arrow {
+	position: absolute;
+	left: 8px;
+	top: 6px;
+}
+.fav-right-arrow {
+	position: absolute;
+	left: 10px;
+	top: 6px;
+}
+
+.cox-float-text {
+	position: absolute;
+	bottom: 25px;
+	left: 15px;
+	color: white;
+}
+.shreemangal-float-text {
+	position: absolute;
+	bottom: 25px;
+	left: 250px;
+	color: white;
+}
+.sundorbon-float-text {
+	position: absolute;
+	left: 506px;
+	bottom: 25px;
+	color: white;
+}
