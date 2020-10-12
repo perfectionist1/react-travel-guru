@@ -3,15 +3,15 @@ import React, { useContext } from 'react';
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import * as firebase from "firebase/app";
 import "firebase/auth";
-import firebaseConfig from '../Login/firebase.config';
+import firebaseConfig from './firebase.config';
 import logo1 from '../Images/Logo1.png';
-import './CreateAccount.css';
+import './Login.css';
 import fbLogo from '../Icons/fb.png';
 import googleLogo from '../Icons/google.png';
 import { UserContext } from '../../App';
 
 
-const CreateAccount = () => {
+const Login = () => {
     const [loggedInUser, setLoggedInUser] =  useContext(UserContext);
     const history = useHistory();
     const location = useLocation();
@@ -35,6 +35,7 @@ const CreateAccount = () => {
         var errorMessage = error.message;
       });
     }
+
     return (
         <div>
             <Container>
@@ -57,17 +58,14 @@ const CreateAccount = () => {
                     <Col>
                         <div className="account-create-form-main">
                             <h3> Create an account</h3>
-                            <form className="pt-4">
-                                <p><input type="text" placeholder="First Name" /></p>
-                                <p><input type="text" placeholder="Last Name" /></p>
+                            <form className="pt-4">                                
                                 <p><input type="email" placeholder="Username or Email" /></p>
-                                <p><input type="password" placeholder="Password" /></p>
-                                <p><input type="text" placeholder="Confirm Password" /></p>
+                                <p><input type="password" placeholder="Password" /></p>                                
                                 <input className="btn btn-warning btn-lg btn-block mt-4" type="submit" value="Create an account"/>
                             </form>
-                            <p className="text-center mt-3">Already have an account? 
-                                <Link to="/login"> 
-                                    <span className="text-warning ml-2">Login</span>
+                            <p className="text-center mt-3">Don't you have an account? 
+                                <Link to="/create-account"> 
+                                    <span className="text-warning ml-1">Create an account</span>
                                 </Link>
                             </p>                           
                         </div>
@@ -85,4 +83,4 @@ const CreateAccount = () => {
     );
 };
 
-export default CreateAccount;
+export default Login;
